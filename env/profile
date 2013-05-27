@@ -1,0 +1,7 @@
+profiles_src=(".env_local" ".env_secret")
+ 
+for k in ${!profiles_src[@]}; do
+    if [ -e ~/${profiles_src[$k]} ]; then
+        source ~/${profiles_src[$k]}
+    fi
+done
