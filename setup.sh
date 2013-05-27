@@ -6,10 +6,12 @@ echo "==[ Preparing files ]==================="
 
 files_src=(
     ".profile"
+    ".gitconfig"
 )
 
 files_dst=(
     ".env_local"
+    ".gitconfig_local"
 )
 
 for k in ${!files_src[@]}; do
