@@ -1,3 +1,5 @@
+alias g='git'
+
 profiles_src=(".env_local" ".env_secret")
  
 for k in ${!profiles_src[@]}; do
