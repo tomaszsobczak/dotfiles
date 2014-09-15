@@ -46,3 +46,7 @@ Thumbs.db
 /vendor/
 /bin/
 /composer.phar
+
+# Editor backups #
+##################
+*~
