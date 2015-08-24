@@ -2,7 +2,7 @@
     ui = auto
 [user]
     name = tomaszsobczak
-    email = tomeksobczak@gmail.com
+    email = tomaszsobczak@ymail.com
 [alias]
     lg    = log --graph --pretty=format:\"%Cred%h%Creset - %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative
 [core]
@@ -11,3 +11,4 @@
     default = current
 [include]
     path = ~/.gitconfig_local
+
